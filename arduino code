@@ -1,0 +1,36 @@
+#include <Servo.h>
+
+
+Servo servo_1;
+
+Servo servo_7;
+
+Servo servo_11;
+
+Servo servo_12;
+
+Servo servo_13;
+
+
+void setup() {
+  servo_1.attach(1);
+
+  servo_7.attach(7);
+
+  servo_11.attach(11);
+
+  servo_12.attach(12);
+
+  servo_13.attach(13);
+
+
+}
+
+void loop() {
+    servo_1.write(90);
+    servo_7.write(90);
+    servo_11.write(90);
+    servo_12.write(90);
+    servo_13.write(90);
+
+}
